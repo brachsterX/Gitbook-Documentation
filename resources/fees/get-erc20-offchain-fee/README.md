@@ -20,7 +20,7 @@ GET api/v3/user/offchainFee
 
 ## Request
 
-<table><thead><tr><th>Field</th><th>Description</th><th>Example</th><th data-hidden>Type</th><th data-hidden>Required</th></tr></thead><tbody><tr><td>accountId</td><td>Account ID</td><td>10110</td><td>integer</td><td>Y</td></tr><tr><td>requestType</td><td>Off-chain request type<br>Allowable : ['0:ORDER', '1:OFFCHAIN_WITHDRAWAL', '2:UPDATE_ACCOUNT', '3:TRANSFER', '4:FAST_OFFCHAIN_WITHDRAWAL', '5:OPEN_ACCOUNT', '6:AMM_EXIT', '7:DEPOSIT', '8:AMM_JOIN', '15:TRANSFER_AND_UPDATE_ACCOUNT']</td><td>1</td><td>integer</td><td>Y</td></tr><tr><td>tokenSymbol</td><td>(Optional)The token symbol, needed when requestType is 1 or 4 </td><td>"LRC"</td><td>string</td><td>N</td></tr><tr><td>amount</td><td>(Optional) The amount to withdraw</td><td>"10000000000000"</td><td>string</td><td>N</td></tr></tbody></table>
+<table><thead><tr><th>Field</th><th>Description</th><th>Example</th><th data-hidden>Type</th><th data-hidden>Required</th></tr></thead><tbody><tr><td>accountId</td><td>Account ID</td><td>10110</td><td>integer</td><td>Y</td></tr><tr><td>requestType</td><td>Off-chain request type<br>Allowable : ['0:ORDER', '1:OFFCHAIN_WITHDRAWAL', '2:UPDATE_ACCOUNT', '3:TRANSFER', '4:FAST_OFFCHAIN_WITHDRAWAL', '5:OPEN_ACCOUNT', '6:AMM_EXIT', '7:DEPOSIT', '8:AMM_JOIN', '11:NFT_TRANSFER', '15:TRANSFER_AND_UPDATE_ACCOUNT']</td><td>1</td><td>integer</td><td>Y</td></tr><tr><td>tokenSymbol</td><td>(Optional)The token symbol, needed when requestType is 1 or 4 </td><td>"LRC"</td><td>string</td><td>N</td></tr><tr><td>amount</td><td>(Optional) The amount to withdraw</td><td>"10000000000000"</td><td>string</td><td>N</td></tr></tbody></table>
 
 
 
